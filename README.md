@@ -1,5 +1,5 @@
-"# profile" 
-# 🌌 **Madhubala’s Portfolio**
+
+# 🌌 **Madhubala Siva**
 
 ![Portfolio Banner](https://img.shields.io/badge/Portfolio-MERN%20Stack-blueviolet?style=for-the-badge&logo=react) 
 ![Node.js](https://img.shields.io/badge/Backend-Node.js-green?style=for-the-badge&logo=node.js) 
