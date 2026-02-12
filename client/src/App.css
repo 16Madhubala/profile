@@ -1,0 +1,13 @@
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #000;
+  color: #ffffff; 
+  font-family: Arial, sans-serif;
+  overflow:auto;
+}
+
+.App {
+  min-height: 100vh;
+  background-color: #000;
+}

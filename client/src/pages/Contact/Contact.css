@@ -1,0 +1,117 @@
+/* ===== CONTACT SECTION ===== */
+.contact-section {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #0b1220, #000000 75%);
+  padding: 120px 20px 60px; /* more top spacing */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start; /* move content upward */
+  color: #e5e7eb;
+  overflow-x: hidden;
+}
+
+/* ===== TITLE ===== */
+.contact-title {
+  font-size: 2.3rem;
+  margin-bottom: 10px;
+  letter-spacing: 1.2px;
+  text-align: center;
+}
+
+/* ===== SUBTITLE ===== */
+.contact-subtitle {
+  max-width: 520px;
+  text-align: center;
+  color: #9ca3af;
+  font-size: 0.95rem;
+  margin-bottom: 35px;
+}
+
+/* ===== CONTACT CARD ===== */
+.contact-card {
+  width: 100%;
+  max-width: 480px;
+  margin: 0 auto;
+  background: rgba(8, 8, 8, 0.88);
+  border-radius: 18px;
+  padding: 30px;
+  border: 1px solid rgba(0, 132, 255, 0.35);
+  box-shadow:
+    0 0 35px rgba(0, 132, 255, 0.15),
+    inset 0 0 20px rgba(0, 132, 255, 0.06);
+}
+
+/* ===== FORM ===== */
+.contact-form {
+  display: flex;
+  flex-direction: column;
+  gap: 18px;
+}
+
+/* ===== FORM GROUP ===== */
+.form-group {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+/* ===== LABELS ===== */
+.form-group label {
+  font-size: 0.85rem;
+  color: #c7d2fe;
+  letter-spacing: 0.3px;
+}
+
+/* ===== INPUTS ===== */
+.form-group input,
+.form-group textarea {
+  background: #020617;
+  border: 1px solid rgba(255, 255, 255, 0.12);
+  padding: 10px 12px;
+  border-radius: 8px;
+  color: #e5e7eb;
+  font-size: 0.9rem;
+  transition: 0.3s ease;
+}
+
+/* ===== INPUT FOCUS ===== */
+.form-group input:focus,
+.form-group textarea:focus {
+  outline: none;
+  border-color: #0a84ff;
+  box-shadow: 0 0 10px rgba(10, 132, 255, 0.6);
+}
+
+/* ===== BUTTON ===== */
+.contact-btn {
+  margin-top: 8px;
+  padding: 12px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #0a84ff, #1e40af);
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 0.95rem;
+  letter-spacing: 0.5px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(10, 132, 255, 0.6);
+  transition: 0.3s ease;
+}
+
+.contact-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 0 35px rgba(10, 132, 255, 1);
+}
+
+/* ===== MOBILE ===== */
+@media (max-width: 600px) {
+  .contact-title {
+    font-size: 2rem;
+  }
+
+  .contact-card {
+    max-width: 100%;
+    padding: 25px 18px;
+  }
+}

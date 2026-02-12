@@ -1,0 +1,181 @@
+/* ===== MAIN LAYOUT ===== */
+
+.home-section {
+  min-height: 100vh;
+  background: linear-gradient(135deg, #0a0a0a, #141414);
+  display: flex;
+  align-items: center;
+  padding: 0 6%;
+}
+
+.home-grid {
+  display: grid;
+  grid-template-columns: 1.1fr 1fr;
+  gap: 90px;
+  width: 100%;
+  align-items: center;
+}
+
+/* ===== HERO ===== */
+.hero-desc {
+  color: #cfd8dc;
+  margin-top: 18px;
+  line-height: 1.7;
+  max-width: 520px;
+}
+
+/* ===== NEON TEXT ===== */
+.neon-glow-blue {
+  font-size: 3.2rem;
+  font-weight: 800;
+  color: #00e5ff;
+  text-shadow:
+    0 0 14px #00e5ff,
+    0 0 40px rgba(0,229,255,.9);
+}
+
+.neon-glow-green {
+  font-size: 1.5rem;
+  margin-top: 10px;
+  color: #1de9b6;
+  text-shadow:
+    0 0 14px #1de9b6,
+    0 0 36px rgba(29,233,182,.7);
+}
+
+.neon-glow-green span {
+  margin: 0 10px;
+  color: #00e5ff;
+}
+
+/* ===== BUTTONS ===== */
+.btn-group {
+  margin-top: 40px;
+  display: flex;
+  gap: 22px;
+}
+
+.neon-btn {
+  padding: 14px 36px;
+  border-radius: 999px;
+  background: transparent;
+  border: 1.5px solid #00e5ff;
+  color: #00e5ff;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 0 20px rgba(0,229,255,.4);
+  transition: .35s ease;
+}
+
+.neon-btn:hover {
+  transform: translateY(-3px);
+  background: rgba(0,229,255,.15);
+  box-shadow: 0 0 45px rgba(0,229,255,.9);
+}
+
+.neon-btn.outline {
+  border-color: #1de9b6;
+  color: #1de9b6;
+  box-shadow: 0 0 20px rgba(29,233,182,.4);
+}
+
+/* ===== FEATURED CLOUDS ===== */
+.featured-clouds {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.section-title {
+  font-size: 1.8rem;
+  color: #00e5ff;
+  margin-bottom: 10px;
+  text-shadow: 0 0 20px rgba(0,229,255,.8);
+}
+
+/* ===== CLOUD CARD ===== */
+.cloud {
+  position: relative;
+  padding: 24px 28px;
+  border-radius: 50px;
+  width: 80%;         
+  align-self: center;    
+
+  background:
+    radial-gradient(circle at top left, rgba(0,229,255,.18), transparent 60%),
+    radial-gradient(circle at bottom right, rgba(29,233,182,.15), transparent 60%),
+    rgba(20,20,20,.9);
+
+  border: 1px solid rgba(0,229,255,.25);
+  box-shadow:
+    0 0 30px rgba(0,229,255,.25),
+    inset 0 0 25px rgba(255,255,255,.05);
+
+  transition: .4s ease;
+  animation: float 6s ease-in-out infinite;
+}
+
+.cloud h3 {
+  color: #00e5ff;
+  margin-bottom: 8px;
+}
+
+.cloud p {
+  color: #cfd8dc;
+  font-size: .95rem;
+  line-height: 1.6;
+}
+
+.cloud:hover {
+  transform: translateY(-8px) scale(1.02);
+  box-shadow:
+    0 0 55px rgba(0,229,255,.9),
+    inset 0 0 30px rgba(255,255,255,.08);
+}
+
+/* ===== MOBILE VIEW ===== */
+@media (max-width: 768px) {
+
+  .home-section {
+    padding: 60px 20px;
+  }
+
+  .home-grid {
+    grid-template-columns: 1fr;  
+    gap: 50px;
+  }
+
+  .neon-glow-blue {
+    font-size: 2.2rem;   
+    text-align: center;
+  }
+
+  .neon-glow-green {
+    font-size: 1.2rem;
+    text-align: center;
+  }
+
+  .hero-desc {
+    max-width: 100%;
+    text-align: center;
+  }
+
+  .btn-group {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+
+  .featured-clouds {
+    align-items: center;
+  }
+
+  .cloud {
+    width: 100%;   /* full width on mobile */
+    padding: 20px;
+  }
+
+  .section-title {
+    text-align: center;
+  }
+}

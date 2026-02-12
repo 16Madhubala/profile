@@ -1,0 +1,94 @@
+/* Entire page */
+.resume-section {
+  min-height: 100vh;
+  background: radial-gradient(circle at top, #0b1220, #000000 75%);
+  padding: 40px 20px 70px;
+  color: #e5e7eb;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Title */
+.resume-title,
+.neon-glow-blue {
+  text-align: center;
+  font-size: 3rem;
+  letter-spacing: 1.6px;
+  margin-top: 5px;
+  margin-bottom: 40px;
+  color: #eaf2ff;
+  text-shadow:
+    0 0 10px rgba(0, 132, 255, 0.75),
+    0 0 22px rgba(0, 132, 255, 0.55),
+    0 0 40px rgba(0, 132, 255, 0.35);
+}
+
+/* Main container – WIDER */
+.resume-content {
+  width: 100%;
+  max-width: 1200px; /* ⬅️ wider */
+  background: rgba(8, 8, 8, 0.88);
+  padding: 45px;
+  border-radius: 20px;
+  border: 1px solid rgba(0, 132, 255, 0.35);
+  box-shadow:
+    0 0 45px rgba(0, 132, 255, 0.2),
+    inset 0 0 35px rgba(0, 132, 255, 0.1);
+  text-align: center;
+}
+
+/* Button */
+.resume-btn {
+  display: inline-block;
+  padding: 15px 42px;
+  margin-bottom: 35px;
+  border-radius: 999px;
+  background: linear-gradient(135deg, #0a84ff, #1e40af);
+  color: #ffffff;
+  font-weight: 600;
+  letter-spacing: 0.7px;
+  text-decoration: none;
+  box-shadow: 0 0 25px rgba(10, 132, 255, 0.75);
+  transition: 0.3s ease;
+}
+
+.resume-btn:hover {
+  transform: translateY(-3px) scale(1.04);
+  box-shadow: 0 0 45px rgba(10, 132, 255, 1);
+}
+
+/* Resume preview wrapper */
+.resume-embed {
+  margin-top: 10px;
+  border-radius: 16px;
+  overflow: hidden;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  box-shadow: 0 0 35px rgba(0, 0, 0, 0.95);
+}
+
+/* BIG resume view */
+.resume-embed iframe {
+  width: 100%;
+  height: 85vh; /* ⬅️ makes it dominant */
+  min-height: 800px;
+  border: none;
+  background: #000;
+}
+
+/* Mobile tuning */
+@media (max-width: 768px) {
+  .resume-title,
+  .neon-glow-blue {
+    font-size: 2.2rem;
+  }
+
+  .resume-content {
+    padding: 25px 18px;
+  }
+
+  .resume-embed iframe {
+    height: 75vh;
+    min-height: 520px;
+  }
+}

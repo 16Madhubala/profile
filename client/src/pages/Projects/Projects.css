@@ -1,0 +1,146 @@
+
+* {
+  cursor: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' width='24' height='24'>\
+<circle cx='12' cy='12' r='6' fill='%2300e5ff'/>\
+</svg>") 12 12, auto;
+}
+
+/* Pointer for clickable elements */
+a, button, .project-card {
+  cursor: url("data:image/svg+xml;utf8,\
+<svg xmlns='http://www.w3.org/2000/svg' width='26' height='26'>\
+<circle cx='13' cy='13' r='7' fill='%231de9b6'/>\
+</svg>") 13 13, pointer;
+}
+
+/* ===== Projects Section ===== */
+.projects-section {
+  background-color: #0a0a0a;
+  min-height: 100vh;
+  padding: 100px 12%;
+  color: #fff;
+}
+
+.projects-title {
+  text-align: center;
+  font-size: 2.6rem;
+  margin-bottom: 70px;
+}
+
+/* Stack cards vertically */
+.projects-grid {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+/* ===== Card ===== */
+.project-card {
+  display: flex;
+  background: #111;
+  border-radius: 16px;
+  overflow: hidden;
+  min-height: 220px;
+  border: 1px solid transparent;
+
+  box-shadow: 0 0 18px rgba(0, 229, 255, 0.12);
+  transition: transform 0.3s ease, box-shadow 0.3s ease, border 0.3s ease;
+}
+
+.project-card:hover {
+  transform: translateY(-6px);
+  box-shadow:
+    0 0 25px rgba(0, 229, 255, 0.35),
+    0 0 45px rgba(0, 229, 255, 0.15);
+  border-color: #00e5ff;
+}
+
+/* ===== Image ===== */
+.image-wrapper {
+  position: relative;
+  width: 35%;
+  min-width: 260px;
+}
+
+.image-wrapper img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: filter 0.3s ease;
+}
+
+.project-card:hover img {
+  filter: brightness(1.1) saturate(1.2);
+}
+
+/* ===== Overlay ===== */
+.overlay {
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.75);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.image-wrapper:hover .overlay {
+  opacity: 1;
+}
+
+.overlay-btn {
+  padding: 10px 22px;
+  border: 1px solid #00e5ff;
+  color: #00e5ff;
+  text-decoration: none;
+  border-radius: 8px;
+  box-shadow: 0 0 15px #00e5ff;
+  transition: 0.3s;
+}
+
+.overlay-btn:hover {
+  background: #00e5ff;
+  color: #000;
+}
+
+/* ===== Content ===== */
+.project-content {
+  padding: 24px 28px;
+  flex: 1;
+}
+
+.project-content h3 {
+  color: #1de9b6;
+  font-size: 1.4rem;
+  margin-bottom: 12px;
+  transition: text-shadow 0.3s ease;
+}
+
+.project-card:hover .project-content h3 {
+  text-shadow: 0 0 8px rgba(0, 229, 255, 0.6);
+}
+
+.project-content p {
+  font-size: 0.95rem;
+  opacity: 0.85;
+  line-height: 1.6;
+  margin-bottom: 18px;
+}
+
+/* ===== Tech Stack ===== */
+.tech-stack {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.tech-badge {
+  padding: 6px 12px;
+  font-size: 0.75rem;
+  border-radius: 6px;
+  background: rgba(0, 229, 255, 0.15);
+  color: #00e5ff;
+  border: 1px solid #00e5ff;
+}
