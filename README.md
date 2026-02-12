@@ -45,8 +45,15 @@ Here’s a preview of my portfolio sections. Replace placeholders with **actual 
 |---------|---------|
 | Home | <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/83c89e57-e449-4975-a26e-3c46f1b51b87" />
 
-| Projects | ![Projects Preview](https://via.placeholder.com/350x200/111111/FF00FF?text=Projects+Section) |
-| Contact | ![Contact Preview](https://via.placeholder.com/350x200/111111/00FF00?text=Contact+Section) |
+| Projects | <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/5c39372e-52f0-44a0-ace8-25355bc0dc7e" />
+<img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/79baf031-254a-4ab6-a67a-8b299c5a3c86" />
+
+|Resume| <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/2c426261-b0f8-4c46-9473-f1e0e9a23e6b" />
+
+
+
+| Contact | <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/a19dd4a9-1c25-4fdb-acc0-0878321d6e71" />
+
 
 ---
 
