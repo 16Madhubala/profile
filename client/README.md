@@ -1,16 +1,52 @@
-# React + Vite
+"# profile" 
+# 🌌 **Madhubala’s Portfolio**
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![Portfolio Banner](https://img.shields.io/badge/Portfolio-MERN%20Stack-blueviolet?style=for-the-badge&logo=react) 
+![Node.js](https://img.shields.io/badge/Backend-Node.js-green?style=for-the-badge&logo=node.js) 
+![MongoDB](https://img.shields.io/badge/Database-MongoDB-%2347A248?style=for-the-badge&logo=mongodb) 
+![Vercel](https://img.shields.io/badge/Deploy-Vercel-black?style=for-the-badge&logo=vercel) 
+![Render](https://img.shields.io/badge/Server-Render-orange?style=for-the-badge&logo=render)
 
-Currently, two official plugins are available:
+> ⚡ A **modern MERN stack portfolio** with neon-style design, showcasing projects, skills, and professional experience.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ **Features**
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🖥️ Fully responsive design (desktop, tablet, mobile)  
+- 🚀 Dynamic project showcase with live previews  
+- 💬 Contact form integrated with backend API  
+- 🌟 Smooth neon animations and hover effects  
+- 🔗 Easy navigation: Home → Projects → Contact  
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠️ **Tech Stack**
+
+| Frontend | Backend | Database | Deployment |
+|----------|---------|---------|------------|
+| React.js, HTML, CSS, JS | Node.js + Express.js | MongoDB | Vercel (Client) |
+| Responsive + Animations | REST API | Mongoose | Render (Server) |
+
+---
+
+## 🌐 **Live Demo**
+
+- 🌟 **Frontend (Portfolio Live):** [Click Here](https://profile1-mauve.vercel.app/)  
+- ⚡ **Backend (API Live):** [Click Here](https://portfolio-1-kzp4.onrender.com/)  
+
+---
+
+## 🎬 **Project Showcase**
+
+Here’s a preview of my portfolio sections. Replace placeholders with **actual screenshots or gifs**:
+
+| Section | Preview |
+|---------|---------|
+| Home | ![Home Preview](https://via.placeholder.com/350x200/111111/00FFFF?text=Home+Section) |
+| Projects | ![Projects Preview](https://via.placeholder.com/350x200/111111/FF00FF?text=Projects+Section) |
+| Contact | ![Contact Preview](https://via.placeholder.com/350x200/111111/00FF00?text=Contact+Section) |
+
+---
+
+
