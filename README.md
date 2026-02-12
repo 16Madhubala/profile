@@ -43,7 +43,8 @@ Here’s a preview of my portfolio sections. Replace placeholders with **actual 
 
 | Section | Preview |
 |---------|---------|
-| Home | ![Home Preview](https://via.placeholder.com/350x200/111111/00FFFF?text=Home+Section) |
+| Home | <img width="1920" height="1020" alt="image" src="https://github.com/user-attachments/assets/83c89e57-e449-4975-a26e-3c46f1b51b87" />
+
 | Projects | ![Projects Preview](https://via.placeholder.com/350x200/111111/FF00FF?text=Projects+Section) |
 | Contact | ![Contact Preview](https://via.placeholder.com/350x200/111111/00FF00?text=Contact+Section) |
 
