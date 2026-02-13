@@ -33,7 +33,8 @@
 ## 🌐 **Live Demo**
 
 - 🌟 **Frontend (Portfolio Live):** [Click Here](https://profile1-mauve.vercel.app/)  
-- ⚡ **Backend (API Live):** [Click Here](https://portfolio-1-kzp4.onrender.com/)  
+- ⚡ **Backend (API Live):** [Click Here](https://portfolio-1-kzp4.onrender.com/) 
+- **Firebase link(Live):** [Click Here](https://portfolio-478ff.web.app/)
 
 ---
 
