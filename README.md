@@ -35,7 +35,7 @@
 
 - 🌟 **Frontend (Vercel):** https://profile1-mauve.vercel.app/  
 - ⚡ **Backend (Render API):** https://portfolio-1-kzp4.onrender.com/  
-- 🔥 **Firebase:**(https://portfolio-478ff.web.app)
+- 🔥 **Firebase:**(https://portfolio-478ff.web.app/)
 
 ---
 
